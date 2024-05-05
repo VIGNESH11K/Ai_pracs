@@ -1,8 +1,0 @@
----
-triple:          'arm64-apple-darwin'
-binary-path:     '/Users/vigneshrk/Documents/GitHub/Ai_pracs/output/iterative8puzzle'
-relocations:
-  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _dfs, symObjAddr: 0x0, symBinAddr: 0x100003CF0, symSize: 0x18 }
-  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _dfs, symObjAddr: 0x0, symBinAddr: 0x100003CF0, symSize: 0x18 }
-  - { offsetInCU: 0x87, offset: 0x87, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x18, symBinAddr: 0x100003D08, symSize: 0x240 }
-...
