@@ -45,6 +45,7 @@ def a_star(start_state):
                 new_path = path + [next_state]
                 frontier.put((len(new_path) + heuristic(next_state), new_path))
                 explored.add(next_state)
+            
     
     return None
 
