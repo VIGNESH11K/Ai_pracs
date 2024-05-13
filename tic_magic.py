@@ -25,7 +25,7 @@ def player_move(player):
         if move < 1 or move > 9:
             print("Invalid move.")
         elif board[move - 1] != ' ':
-            print("That square is already occupied.")
+            print("That square is already occup'ied.")
         else:
             board[move - 1] = player
             break
